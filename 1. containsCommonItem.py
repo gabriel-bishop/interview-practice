@@ -1,13 +1,12 @@
 def lookForMatch(array1, array2):
-    arrayDict1 = {}
-    arrayDict2 = {}
+    arrayDict = {}
     
     for elem in array1:
-        arrayDict1[elem] = True
+        arrayDict[elem] = True
         
 
     for elem in array2:
-        if arrayDict1.get(elem):
+        if arrayDict.get(elem):
             return True
 
     return False
