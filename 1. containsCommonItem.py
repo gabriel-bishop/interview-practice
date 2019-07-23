@@ -12,3 +12,5 @@ def lookForMatch(array1, array2):
     return False
 
 print(lookForMatch([5], [7,6,8,11,9, 1]))
+
+# O (a + b)
